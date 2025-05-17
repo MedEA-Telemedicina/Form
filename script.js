@@ -69,7 +69,7 @@ verificaMsg.textContent = 'Verifica in corso...';
 verificaMsg.style.color = '#666';
 
 try {
-const response = await fetch('https://script.google.com/macros/s/AKfycbz7KwZNK8YlpGLb5XxzgejJTFG1mOErZBcNprTX0Ln5dvvneiD73AGY2QP-940nVe60CQ/exec');
+const response = await fetch('https://script.google.com/macros/s/AKfycbyrhxJtu9M7uKV-BOZW-Mm0CNyoADmickNST1c__VpzMLqLLVROTdf1Vn633Ml4CQRGgg/exec');
 const lista = await response.json();
 
 const normalizza = str =>
@@ -176,7 +176,7 @@ inviaBtn.addEventListener('click', async () => {
     });
   });
 
-  await fetch('https://script.google.com/macros/s/AKfycbz7KwZNK8YlpGLb5XxzgejJTFG1mOErZBcNprTX0Ln5dvvneiD73AGY2QP-940nVe60CQ/exec', {
+  await fetch('https://script.google.com/macros/s/AKfycbyrhxJtu9M7uKV-BOZW-Mm0CNyoADmickNST1c__VpzMLqLLVROTdf1Vn633Ml4CQRGgg/exec', {
     method: 'POST',
     body: JSON.stringify(payload),
     headers: {
