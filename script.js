@@ -69,7 +69,7 @@ verificaMsg.textContent = 'Verifica in corso...';
 verificaMsg.style.color = '#666';
 
 try {
-const response = await fetch('https://proxy-disponibilita.testmedeatelemedicina.workers.dev/');
+const response = await fetch('https://script.google.com/macros/s/AKfycbwm8KlaJ4fX0SdyYEw5oLk_pG6bYU7Oj-H1AC44cejNv5uz7EOBrL5pV3_tUsremLtbig/exec');
 const lista = await response.json();
 
 const normalizza = str =>
